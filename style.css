@@ -2,7 +2,7 @@
     --main-white: #ece4e4;
     --main-red: #db450a;
     --main-blue: #0f3da8;
-    --main-gray: #282b30;
+    --main-gray: #3a3e44;
   }
   
   * {
@@ -43,7 +43,6 @@
     }
   }
   
-  /* Base styles */
   
   body {
     font-family: 'Poppins', sans-serif;
@@ -82,7 +81,6 @@
     width: 100%;
   }
   
-  /* nav */
   
   .nav {
     display: flex;
@@ -121,7 +119,6 @@
     background: var(--main-blue);
   }
   
-  /* Welcome section */
   
   .welcome-section {
     display: flex;
@@ -141,7 +138,6 @@
     color: var(--main-red);
   }
   
-  /* Projects section */
   
   .projects-section {
     text-align: center;
@@ -161,7 +157,6 @@
     }
   }
   
-  /* "Automagic" image grid using no media queries */
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -234,7 +229,6 @@
     transition: transform 0.3s ease-out;
   }
   
-  /* Contact section */
   
   .contact-section {
     display: flex;
@@ -281,7 +275,6 @@
     transform: translateY(8px);
   }
   
-  /* Footer */
   
   footer {
     font-weight: 300;
